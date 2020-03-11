@@ -1,0 +1,367 @@
+@import url('https://use.typekit.net/scc6con.js');
+
+
+@font-face {
+  font-family: 'montserrat-thin';
+  src: url('vendor/fonts/antro_vectra/montserrat-thin.woff2') format('woff2'),
+       url('vendor/fonts/antro_vectra/montserrat-thin.woff') format('woff');
+}
+@font-face {
+  font-family: 'montserrat-regular';
+  src: url('vendor/fonts/antro_vectra/montserrat-regular.woff2') format('woff2'),
+       url('vendor/fonts/antro_vectra/montserrat-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'montserrat-bold';
+  src: url('vendor/fonts/antro_vectra/montserrat-bold.woff2') format('woff2'),
+       url('vendor/fonts/antro_vectra/montserrat-bold.woff') format('woff'); 
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 480px) {
+  body {
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+    font-size:3vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  body {
+    font-size:2vw;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    font-size:1.5vw;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+  	}
+  	h1 {
+	  display: block;
+	  font-size: 2.4rem;
+	  margin-top: 0.67rem;
+	  margin-bottom: 0.67rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+	}
+	h2 {
+	  display: block;
+	  font-size: 2.1rem;
+	  margin-top: 0.83rem;
+	  margin-bottom: 0.83rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: bold;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+	}
+	h3 {
+	  display: block;
+	  font-size: 1.7rem;
+	  margin-top: 1rem;
+	  margin-bottom: 1rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: normal;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+	}
+	h4 {
+	  display: block;
+	  font-size: 1.3rem;
+	  margin-top: 1.33rem;
+	  margin-bottom: 1.33rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: normal;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+	}
+	h5 {
+	  display: block;
+	  font-size: 1rem;
+	  margin-top: 1.67rem;
+	  margin-bottom: 1.67rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: normal;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+	}
+	h6 {
+	  display: block;
+	  font-size: 0.8rem;
+	  margin-top: 2.33rem;
+	  margin-bottom: 2.33rem;
+	  margin-left: 0;
+	  margin-right: 0;
+	  font-weight: normal;
+  	font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body {
+    /*font-size:1vw;*/
+    font-size:12.48px;
+    font-family: 'montserrat-regular', 'Open Sans', sans-serif;
+
+
+  }
+}
+
+.styleguide-container {
+	max-width:1140px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+li a {
+	font-size:1rem;
+}
+.text-white {
+	color:white;
+}
+
+.wrapper {
+	padding:20px;
+	border:1px solid lightgrey;
+}
+.disc {
+	list-style-type: disc;
+}
+.circle {
+		list-style-type: circle;
+}
+.square {
+		list-style-type: square;
+}
+.image {
+  	line-height: 1.5em;
+  	list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
+}
+.letter-spacing-1 {
+	letter-spacing: 0.025em;
+}
+.letter-spacing-2 {
+	letter-spacing: 0.25em;
+}
+.letter-spacing-3 {
+	letter-spacing: 0.5em;
+}
+.color-pallette {
+	width:150px;
+	height:50px;
+	background:red;
+	padding:10px;
+	margin-bottom:5px;
+}
+.block-text li {
+	font-size:12px;
+  	font-family: monospace;
+  	margin-bottom:0px;
+}
+.heading-text .wrapper p:last-child {
+	margin-bottom:20px;
+}
+.pallette li{
+	display: inline-block;
+}
+
+/*Primary Pallette*/
+
+.brand-black {
+	background:#1A1A1A;
+}
+.brand-white {
+	background:#FFFFFF;
+}
+.brand-grey {
+	background:#EFEFEF;
+}
+
+/*Secondary Pallette */
+
+.brand-red {
+	background:#B10B27;
+}
+.brand-green {
+	background:#78B83D;
+}
+.brand-purple {
+	background:#64007C;
+}
+
+/* --- */
+.brand-btn-success-red {
+	background:#B10B27;
+}
+.brand-btn-success-green {
+	background:#78B83D;
+}
+.brand-btn-dark {
+	background:#515151;
+}
+.brand-btn-light {
+	background:#F4F4F4;
+}
+
+/* --- */
+
+button.brand-btn-success-red {
+	border:3px solid #66071C;
+
+}
+button.brand-btn-success-green {
+	border:3px solid #487F0E;
+
+}
+button.brand-btn-dark {
+	border:3px solid #515151;
+
+}
+button.brand-btn-light {
+
+}
+
+.brand-btn-success-red:hover {
+	background:#FFFFFF;
+	border:3px solid #B10B27;
+	color:#1A1A1A;
+}
+.brand-btn-success-green:hover {
+	background:#FFFFFF;
+	border:3px solid #B10B27;
+	color:#1A1A1A;
+}
+.brand-btn-dark:hover {
+	background:#888888;
+	border:3px solid #1A1A1A;
+	color:#FFFFFF;
+}
+.brand-btn-light:hover {}
+
+
+.text-dark {
+	color:#1A1A1A!important;
+}
+.brand-btn {
+  font-weight: 400;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.625rem 3rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  font-family: 'Open Sans', sans-serif;
+  width:300px;
+
+}
+
+.font-monserrat {
+  font-family: 'Monseratt', serif
+
+}
+.font-futura {
+  font-family: 'futura-pt', sans-serif;
+
+}
+
+.mb-10 {
+	margin-bottom:10px;
+}
+.mb-0 {
+	margin-bottom:0px;
+}
+.mt-10 {
+	margin-top:10px;
+}
+.mt-0 {
+	margin-top:0px;
+}
+.m-0 {
+	margin:0px;
+}
+/* unvisited link */
+
+a:link, .link {
+  text-decoration: underline;
+  color: #1A1A1A;
+}
+
+/* visited link */
+a:visited, .visited {
+  text-decoration: underline;
+  color: #888888;
+}
+
+/* mouse over link */
+a:hover, .hover {
+  text-decoration: none;
+  color: #1A1A1A;
+}
+
+/* selected link */
+a:active, .active {
+  text-decoration: underline;
+  color: #1A1A1A;
+}
+
+.form-control {
+	width:96%!important;
+}
+.valid.form-control{
+    color: #495057;
+    background-color: #fff;
+    border-color: green;
+    border-left:5px solid green;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+.invalid.form-control{
+    color: #495057;
+    background-color: #fff;
+    border-color: red;
+    border-left:5px solid red;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+.valid.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: green;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+.invalid.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: red;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+.icon {
+	font-size:60px;
+	margin: 0 20px 20px 0;
+}
+.icon:hover {
+	color:gray;
+}
+.breaker {
+	display:block;
+}
+footer {
+
+	height:200px;
+}
+
